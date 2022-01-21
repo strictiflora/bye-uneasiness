@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/strictiflora/bye_uneasiness.git"
+    "url": "git+https://github.com/strictiflora/bye-uneasiness.git"
   },
   "keywords": [
     "uneasiness"
@@ -19,9 +19,9 @@
   "author": "strictiflora",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/strictiflora/bye_uneasiness/issues"
+    "url": "https://github.com/strictiflora/bye-uneasiness/issues"
   },
-  "homepage": "https://github.com/strictiflora/bye_uneasiness#readme",
+  "homepage": "https://github.com/strictiflora/bye-uneasiness#readme",
   "dependencies": {
     "enquirer": "^2.3.6"
   }
