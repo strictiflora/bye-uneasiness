@@ -1,8 +1,11 @@
 {
-  "name": "bye_uneasiness",
+  "name": "bye-uneasiness",
   "version": "1.0.0",
   "description": "It helps you to focus on what you can handle when you have a vague uneasiness.",
   "main": "index.js",
+  "bin": {
+    "bye-uneasiness": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
