@@ -1,4 +1,4 @@
-# bye_uneasiness
+# bye-uneasiness
 Do you have a vague uneasiness?<br>
 Sometimes it is like a tangled yarn.<br>
 It helps you to untangle it and focus on what you can handle.
