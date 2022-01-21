@@ -1,0 +1,25 @@
+{
+  "name": "bye_uneasiness",
+  "version": "1.0.0",
+  "description": "It helps you to focus on what you can handle when you have a vague uneasiness.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strictiflora/bye_uneasiness.git"
+  },
+  "keywords": [
+    "uneasiness"
+  ],
+  "author": "strictiflora",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/strictiflora/bye_uneasiness/issues"
+  },
+  "homepage": "https://github.com/strictiflora/bye_uneasiness#readme",
+  "dependencies": {
+    "enquirer": "^2.3.6"
+  }
+}
