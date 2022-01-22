@@ -10,3 +10,5 @@ It helps you to untangle it and focus on what you can handle.
 
 # Usage
 `$ bye-uneasiness`
+or
+`$ npx bye-uneasiness`
