@@ -49,7 +49,7 @@ async function select (lines) {
   if (isSelectable(lines)) lines.push(nonApplicable);
 
   const prompt1 = new MultiSelect({
-    message: 'この中で現在進行中または未来の出来事を選択してください\n(半角英数入力モードでのCtrl+dまたはcommand+dで選択)',
+    message: 'この中で現在進行中または未来の出来事を選択してください\n(半角英数入力モードでのSpaceキーで選択、Enterで選択終了)',
     limit: 15,
     choices: lines,
     validate: validation
