@@ -1,6 +1,6 @@
 {
   "name": "bye-uneasiness",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "It helps you to focus on what you can handle when you have a vague uneasiness.",
   "main": "index.js",
   "bin": {
