@@ -6,6 +6,7 @@ const { Toggle } = require('enquirer');
 function main () {
   console.clear();
   console.log('あなたのモヤモヤをざっくり箇条書きで入力してください:');
+  console.log('(Ctrl+dまたはcommand+dで入力終了)');
 
   process.stdin.resume();
   process.stdin.setEncoding('utf8');
@@ -48,7 +49,7 @@ async function select (lines) {
   if (isSelectable(lines)) lines.push(nonApplicable);
 
   const prompt1 = new MultiSelect({
-    message: 'この中で現在進行中または未来の出来事を選択してください',
+    message: 'この中で現在進行中または未来の出来事を選択してください\n(半角英数入力モードでのCtrl+dまたはcommand+dで選択)',
     limit: 15,
     choices: lines,
     validate: validation
@@ -98,7 +99,7 @@ function showLastMessage (answer) {
   startAgain();
 }
 
-async function startAgain () {
+function startAgain () {
   const prompt3 = new Toggle({
     message: '最初からやり直しますか？',
     enabled: 'Yes',
