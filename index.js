@@ -27,7 +27,7 @@ function main () {
     if (isSelectable(lines)) select(lines);
   });
 
-  process.on('exit', function () {
+  process.on('cancel', function () {
     process.exit();
   });
 }
